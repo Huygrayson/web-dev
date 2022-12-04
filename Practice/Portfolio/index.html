@@ -1,0 +1,91 @@
+
+<!-- name this file index.html for github to recognize it as main -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Test Portfolio</title>
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="shortcut icon" href="Favicon/favicon.ico" type="image/x-icon">
+        <!-- Internal CSS -->
+        <style>
+            hr.solid{
+                border-style: solid;
+                border-width: 0.5px;
+                border-radius: 5px;
+                color: black;
+            }
+            hr.dash{
+                border-style: dashed;
+                border-width: 1px;
+                border-radius: 5px;
+                color: black;
+            }
+            hr.fav{
+                border-style: none;
+                border-top-style: dotted;
+                border-width: 10px;
+                width: 10%;
+                border-width: 5px;
+                color: rgb(67, 103, 134);
+            } 
+        </style>
+    </head>
+    <body>
+        <div class="firstsection">
+            <table cellspacing="20">
+                <tr>
+                    <td><img class="avatar" src="My_image.png" width="200" height="200" alt="Image"></td>
+                    <td><h1 align="center" style="color:black;font-size:30px;" >VO TRAN QUANG HUY</h1> <!-- Using inline CSS here -->
+                    <p align="center">
+                        <em><strong>Phone:</strong> +84 902803703<br>
+                            <strong>Email:</strong> huy.vtquang@gmail.com<br>
+                            <strong>Address:</strong> Ho Chi Minh, Vietnam</em><br>
+                    </p>
+                    </td>
+                </tr>
+            </table>
+            <hr class="fav">
+        </div>
+        
+        <h2 style="color:darkslategray;font-size:20px;">EDUCATION</h2>
+        <p><strong>Ho Chi Minh University of Technology</strong>  &#160; &#160; &#160; &#160; &#160; &#160;<em>Oct 2016 - Jun 2021</em>
+           <br>
+           <em>Major: Control & Automation
+           <br>
+           GPA: 7.56/10
+           </em>
+        </p>
+
+        <hr class="dash">
+        <h2 style="color:darkslategray;font-size:20px;">WORK EXPERIENCE</h2>
+        <p><strong>Embedded Software Engineer</strong>  &#160; &#160; &#160; &#160; &#160; &#160; &#160;<em>Jun 2021 - Now</em>
+           <br>
+           <em>Developer at Ban Vien, Renesas corp</em>
+           <ul>
+            <li> Develop project RCAR VISIONIP at RENESAS ELECTRONICS CORPORATION</li>
+            <li> Experience in Scrum Agile working sequence</li>
+            <li> C programming</li>
+            <li> Using python bash shell, GIT</li>
+            <li> Unit Test using CANTATA, Component Test, Feature Test</li>
+            <li> V-model software development</li>
+           </ul>
+        </p>
+
+        <hr class="dash">
+        <h2 style="color:darkslategray;font-size:20px;">SKILLS</h2>
+        <table cellspacing="10">
+            <tr><td>Language</td> <td>English, German</td></tr>
+            <tr><td>Software</td> <td>TIA Portal, WinCC, Citect, Altium, Proteus, MATLAB, C/C++ IDE, Visual
+                Studio, Pycharm, AutoCAD Electrical
+                </td></tr>
+            <tr><td>Programming Language</td> <td>C, C++, C#, VB.NET + SQL Database, Python, R
+            </td></tr>
+        </table>
+
+        <hr class="dash">
+        <h2 style="color:darkslategray;font-size:20px;">REGISTRATION</h2>
+        <a href="form.html">For registration, click here</a>
+
+    </body>
+</html>

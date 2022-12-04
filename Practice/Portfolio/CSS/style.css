@@ -1,0 +1,19 @@
+/* External CSS */
+
+body{
+    /* background-color: rgb(196, 227, 226); */
+    background-image: url(../Matrix.png);
+    margin: 0;
+}
+
+.topless{
+    margin-top: 0;
+}
+
+.avatar{
+    border-radius: 100%;
+}
+
+.firstsection{
+    background-color: rgb(167, 122, 39);
+}
