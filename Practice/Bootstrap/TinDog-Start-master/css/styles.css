@@ -31,3 +31,18 @@
     font-family: "Rubik Puddles";
     color: white;
 }
+
+#features{
+    font-family: "Montserrat";
+}
+
+.feature-header{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.feature-text{
+    font-size: 0.7rem;
+    text-align: center;
+}
