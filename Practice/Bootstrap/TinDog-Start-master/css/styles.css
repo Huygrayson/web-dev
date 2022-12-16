@@ -46,3 +46,13 @@
     font-size: 0.7rem;
     text-align: center;
 }
+
+.icon{
+    padding-left: 45%; 
+    font-size: 1.5rem; 
+    color:indianred;
+}
+
+.icon:hover{
+    color: red;
+}
