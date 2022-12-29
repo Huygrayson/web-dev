@@ -33,6 +33,26 @@
     color: white;
 }
 
+@media only screen and (max-width: 600px) {
+    .title-font{
+        font-family: "Rubik Puddles";
+        color: white;
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .title-image{
+        width: 40%;
+        margin-top: 7%;
+        transform: rotate(0deg);
+    }
+
+    .container-fluid{
+        padding: 3% 15%;
+        text-align: center;
+    }
+}
+
 /* Features section */
 #features{
     font-family: "Montserrat";
@@ -92,4 +112,28 @@
 .press-image{
     width: 7rem;
     margin: 0% 5%;
+}
+
+/* Pricing section */
+
+#pricing{
+    font-family: "Montserrat";
+}
+
+.pricing-title{
+    padding: 3% 15%;
+}
+
+.card{
+    margin-bottom: 1rem;
+}
+
+.card-header{
+    background-color: darkgrey;
+    font-weight: bolder;
+    padding: 1rem;
+}
+
+.card-body{
+    font-size: 0.8rem;
 }
