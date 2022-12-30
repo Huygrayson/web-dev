@@ -17,9 +17,11 @@
 }
 
 .title-image{
-    width: 60%;
+    width: 40%;
     transform: rotate(25deg);
     margin-top: 7%;
+    /* position: absolute;
+    z-index: 0; */
 }
 
 .navbar-brand{
@@ -56,7 +58,10 @@
 /* Features section */
 #features{
     font-family: "Montserrat";
+    background-color: white;
     text-align: center;
+    /* position: relative;
+    z-index: 1; */
 }
 
 .feature-header{
@@ -136,4 +141,27 @@
 
 .card-body{
     font-size: 0.8rem;
+}
+
+/* Call to Action section */
+#cta{
+    background-color: indianred;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 10%;
+}
+
+.cta-text{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+/* Footer section */
+#footer{
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 0.6rem;
+    margin-top: 10%;
 }
